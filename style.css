@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    height: 100vh;
+}
+
+#table {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    border: 1px solid white;
+    box-shadow: 2px 1px 11px 5px rgb(233, 219, 219);
+    background-color: rgba(175, 167, 167, 0.5);
+
+}
+
+.cell {
+    width: 99px;
+    border: 1px solid black;
+    box-shadow: inset 2px -4px 6px rgb(0 0 0 / 60%);
+    text-align: center;
+    font-size: 50px;
+    padding: 18px 0;
+    background-color: white;
+}
+
+#start {
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+}
