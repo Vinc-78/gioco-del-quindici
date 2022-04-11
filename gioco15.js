@@ -88,7 +88,7 @@ function getNum(event) {
         console.log('Primo valore passato: ', firstValue)
         first = true
         second = true;
-    //se è il secondo click assegna i valori a first
+    //se è il secondo click assegna i valori a second
     } else if (second === true) {
 
         secondValue = event.path[0].innerHTML
@@ -109,7 +109,7 @@ function scambia(event) {
     console.log('Valori: ' ,firstValue, secondValue)
     console.log('Stato variabili: ' , first, second)
 
-    //solo se il secondo valore è vuoto effettua lo scambio e non barare :)
+    //solo se il secondo valore è vuoto effettua lo scambio... e non barare :)
     if (secondValue === ""){
 
         console.log(justStart);
